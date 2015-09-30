@@ -1,0 +1,5 @@
+Para que siempre screenfetch se ejecute al abrir la terminal
+
+Usted debe abrir la terminal y escribir : cd $HOME ; echo "screenfetch" > .bashrc 
+
+Ahora tan solo habra una nueva terminal y verá que todo funciona correctamente un saludo
