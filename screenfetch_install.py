@@ -4,6 +4,9 @@ import os
 import urllib.request
 import getpass
 
+
+#Modo de uso : sudo python3 + script
+
 print("""
                               _____    _       _     
  ___  ___ _ __ ___  ___ _ __ |  ___|__| |_ ___| |__  
@@ -23,6 +26,6 @@ if getpass.getuser() == "root":
     permisos = ("sudo chmod +x screenfetch")
     print ("Ahora que se a instalado correctamente,para que se ejecute siempre desde la terminal,lea el archivo terminal.txt")
 else:
-    print("Debes de ejecutar el script con sudo : sudo screenfetch_install.py ")
+    print("Debes de ejecutar el script con sudo : sudo python3 screenfetch_install.py ")
 
 
